@@ -1,0 +1,138 @@
+.secOne{
+    height: calc(100vh);
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.secOne select{
+    width: 35%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+
+
+.input{
+    width: 35%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input input{
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+.input button{
+    height: 50px;
+    width: 25%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #257DBB ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input i{
+    font-size: 18px;
+}
+
+.divisoria{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.secTwo{
+    height: calc(100vh);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fundo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.secTwo form{
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.secTwo input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 0 0 5px #257DBB;
+
+}
+
+.secTwo textarea{
+    height: 200px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    outline: none;
+    resize: none;
+    border: 1px solid #257DBB;
+}
+
+.secTwo button{
+    width: 35%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #257DBB;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+

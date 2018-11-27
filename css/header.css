@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.opaco{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    z-index: 18;
+}
+
+.opacoVisible{
+    visibility: visible;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* top: 0; */
+    z-index: 20;
+    transition: .5s;
+    color: white;
+}
+
+.header1{
+    background-color: rgba(255, 255, 255, 1);
+    height: 60px;
+    color: black;
+}
+
+.burguer{
+    height: 44px;
+    width: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10vw;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #257DBB;
+    z-index: 20;
+    transition: .7s .1s;
+}
+
+.burguerClick{
+    left: calc(30% - 55px);
+}
+
+.barra{
+    width: 27px;
+    height: 2px;
+    background-color: white;
+    transition: .5s;
+}
+
+.barra:nth-child(2){
+    margin: 7px;
+}
+
+.barrinha{
+    position: absolute;
+    transform: rotate(135deg);
+}
+
+.barrinha:nth-child(2){
+    position: absolute;
+    margin: 0;
+    transform: rotate(-135deg);
+}
+
+
+header h1{
+    text-transform: uppercase;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    user-select: none;
+    word-wrap: none;
+}
+
+header span{
+    color: #257DBB;
+    margin-left: 5px;
+}
+
+header img{
+    height: 75%;
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+nav{
+    height: 100vh;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: .7s;
+    z-index: 19;
+}
+
+.navVisible{
+    transform: translateX(0);
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 1px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px 0;
+    border-radius: 20px;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+
+nav a:hover{
+    color: #257DBB;
+    border: 1px solid #257DBB;
+}
+
+

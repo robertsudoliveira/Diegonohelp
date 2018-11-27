@@ -1,0 +1,21 @@
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer label{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #257DBB;
+}
+
+footer i{
+    font-size: 35px;
+    cursor: pointer;
+    color: #257DBB;
+}
